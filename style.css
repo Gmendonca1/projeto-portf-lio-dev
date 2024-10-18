@@ -1,0 +1,35 @@
+@import url(profile.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-purple:#BB72E9;
+  --color-red: #E3646E;
+  --color-blue: #3996DB;
+  --color-green: #82BC4F;
+  --color-yellow: #EABD5F;
+
+  --color-grey-100: #0D0E11;
+  --color-grey-200: #16181D;
+  --color-grey-300:#292C34;
+  --color-grey-400:#878EA1;
+  --color-grey-500:#C0C4CE;
+  --color-grey-600:#E2E4E9;
+
+  --font-family-asap: "Asap", sans-serif;
+  --text-asap-lg: 600 56px/120% ;
+  --text-asap-md: 600 24px/120%;
+  --text-asa-sm: 600 16px/120%;
+
+  --font-family-inconsolata: "Inconsolata", monospace;
+  --text-inconsolata-subtitle: 400 20px/120%;
+
+  --font-family-maven: "Maven Pro", sans-serif;
+  --text-maven-md: 400 16px/140%;
+  --text-maven-sm:400 14px/140%;
+}
+
