@@ -1,10 +1,22 @@
 .status-default {
 display: flex;
-position: relative;
-padding: 2px;
+flex-wrap: wrap;
+padding: 6px;
+width: 330px;
+height: 280px;
+gap: 24px;
+border-radius: 10px;
 
 &:hover {
   background-image: url(assets/Status=Hover.png);
+  display: flex;
+flex-wrap: wrap;
+padding: 6px;
+width: 330px;
+height: 280px;
+gap: 24px;
+border-radius: 10px;
+
 }
 }
 
@@ -12,27 +24,26 @@ padding: 2px;
   display: flex;
   position: absolute;
   width: 306px;
-  height: auto;
+  height: 156px;
   border-radius: 8px;
-  margin-top: 13px;
+  margin-top: 14px;
+  margin-left: 14px;
+  
 }
 
 .project-card {
   display: flex;
-flex-direction: column;
-align-items: center;
-padding: 12px;
+  flex-wrap: wrap;
+padding: 10px;
 gap: 20px;
 
-flex: none;
-order: 0;
-flex-grow: 0;
 }
 
 .text-projeto {
   display: block;
   position: absolute;
   background-color: var(--color-grey-300);
+  border-radius: 10px;
 
   padding: 10px;
   align-items: end;
