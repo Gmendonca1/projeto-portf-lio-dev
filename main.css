@@ -1,0 +1,40 @@
+.status-default {
+display: flex;
+position: relative;
+padding: 2px;
+
+&:hover {
+  background-image: url(assets/Status=Hover.png);
+}
+}
+
+.imagem-projeto {
+  display: flex;
+  position: absolute;
+  width: 306px;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 13px;
+}
+
+.project-card {
+  display: flex;
+flex-direction: column;
+align-items: center;
+padding: 12px;
+gap: 20px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.text-projeto {
+  display: block;
+  position: absolute;
+  background-color: var(--color-grey-300);
+
+  padding: 10px;
+  align-items: end;
+  margin: 188px 12px 17px 6px;
+}

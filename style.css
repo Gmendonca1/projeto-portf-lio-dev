@@ -1,5 +1,6 @@
 @import url(profile.css);
 @import url(utility.css);
+@import url(main.css);
 
 * {
   margin: 0;
@@ -33,19 +34,3 @@
   --text-maven-md: 400 16px/140% var(--font-family-maven);
   --text-maven-sm:400 14px/140% var(--font-family-maven);
 }
-
-.container {
-  max-width: 100%;
-  padding: 20px;
-  margin-inline: auto ;
-  }
-
-  img {
-    max-width: 100%;
-  }
-
-  body {
-    background-color: #29292E;
-  }
-
-  
