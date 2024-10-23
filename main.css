@@ -1,3 +1,21 @@
+main {
+  background-color: var(--color-grey-200);
+  padding:72px 120px ;
+  margin: 0px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+align-items: flex-start;
+align-content: center;
+  
+div:nth-child(1) {
+display: block;
+width: 1366px;
+
+}
+}
+
 .status-default {
 display: flex;
 flex-wrap: wrap;

@@ -1,0 +1,48 @@
+footer {
+  display: flex;
+padding: 0px 20px;
+justify-items: center;
+align-content: center;
+}
+
+figure {
+  display: flex;
+  max-width: 100%;
+  position: relative;
+ }
+
+figcaption {
+  display: flex;
+  flex-direction: column;
+  width: 1366px;
+  position: absolute;
+  padding: 128px 120px 200px 120px;
+  align-items: center;
+  justify-content: center;
+
+  h2 {
+    font: var(--text-asap-md);
+    color: var(--color-grey-600);
+    display: flex;
+   justify-content: center;
+   margin-bottom: 8px;
+   margin-top: 8px;
+  }
+  
+}
+
+.container-contacts {
+  display: flex;
+  flex-direction: column;
+margin-top: 48px;
+align-items: center;
+justify-content: center;
+row-gap: 16px;
+}
+
+.hover-contacts {
+  :hover {
+    border: solid 2px var(--color-blue);
+    border-radius: 10px;
+  }
+}

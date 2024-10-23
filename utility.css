@@ -37,6 +37,14 @@
   margin-bottom: 8px;
 }
 
+.text-purple {
+  font: var(--text-inconsolata-subtitle);
+  color: var(--color-purple);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
 .descricao {
   font: var(--text-maven-sm);
   color: var(--color-grey-400);
@@ -46,6 +54,13 @@
 .content-tag {
   font: var(--text-maven-md);
   color: #C0C4CE;
+}
+
+.text-md-maven {
+  font: var(--text-maven-md);
+  color: var(--color-grey-500);
+  display: flex;
+  justify-content: center;
 }
 
 .container {
@@ -66,23 +81,7 @@
     background-color: #29292E;
   }
 
-  main {
-    background-color: var(--color-grey-200);
-    padding:72px 120px ;
-    margin: 0px 20px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-align-items: flex-start;
-align-content: center;
-    
- div:nth-child(1) {
-  display: block;
-  width: 1366px;
-  
- }
-  }
+
   
 
 
