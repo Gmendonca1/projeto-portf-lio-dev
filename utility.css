@@ -59,8 +59,7 @@
 .text-md-maven {
   font: var(--text-maven-md);
   color: var(--color-grey-500);
-  display: flex;
-  justify-content: center;
+  
 }
 
 .container {
@@ -75,6 +74,8 @@
 
   body {
     background-color: #29292E;
+    align-content: center;
+    justify-content: center;
   }
 
   body {
